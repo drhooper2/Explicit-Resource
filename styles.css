@@ -25,6 +25,27 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
+.speech-bubble {
+    position: absolute; /* Keeps the bubble in place while scrolling */
+    top: 20%; /* Adjust vertical positioning */
+    left: 10px; /* Adjust horizontal positioning */
+    max-width: 200px;
+    background-color: #f0f8ff;
+    border: 2px solid #007BFF;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Position at the bottom of the bubble */
+    left: 20px; /* Position the tail */
+    border-width: 10px;
+    border-style: solid;
+    border-color: purple transparent transparent transparent; /* Creates the arrow */
+  }
 
 main {
     padding: 20px;
@@ -98,24 +119,4 @@ footer {
   Adjust the top, left, or right values to place the bubble exactly where you want it.
   Let me know if you’d like further adjustments or more features!
 
-  .speech-bubble {
-    position: absolute; /* Keeps the bubble in place while scrolling */
-    top: 20%; /* Adjust vertical positioning */
-    left: 10px; /* Adjust horizontal positioning */
-    max-width: 200px;
-    background-color: #f0f8ff;
-    border: 2px solid #007BFF;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .speech-bubble:after {
-    content: '';
-    position: absolute;
-    bottom: -10px; /* Position at the bottom of the bubble */
-    left: 20px; /* Position the tail */
-    border-width: 10px;
-    border-style: solid;
-    border-color: purple transparent transparent transparent; /* Creates the arrow */
-  }
+ 
