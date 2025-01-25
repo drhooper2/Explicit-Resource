@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: black;
+}
+
+header { 
+    background: url('aaron-burden-dXYE1d08BiY-unsplash (1).jpg') no-repeat center center;
+    background-size: cover;  /* Ensures the image covers the entire header */
+    color: #fff; /* Keeps the text readable */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0/1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.personal-picture {
+    max-width: 300%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .speech-bubble {
+    position: relative; /* Keeps it in the margin area */
+    top: 20%; /* Adjust this to control vertical positioning */
+    left: 10px; /* Positions it in the left margin */
+    max-width: 200px; /* Limit the width of the bubble */
+    background-color: #f0f8ff;
+    border: 2px solid #007BFF;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .speech-bubble:after {
+    content: '';
+    position: relative;
+    bottom: -10px; /* Position at the bottom edge of the bubble */
+    left: 20px; /* Position the tail */
+    border-width: 10px;
+    border-style: solid;
+    border-color: #007BFF transparent transparent transparent; /* Create the arrow */
+  }
+
+  How It Works:
+  HTML Structure:
+  
+  The .speech-bubble is positioned outside the main content.
+  Content inside the bubble is defined in a <p> tag.
+  CSS Styling:
+  
+  position: fixed keeps the speech bubble in the same place in the margin, even when scrolling.
+  The :after pseudo-element creates the "tail" of the speech bubble with borders.
+  Adjust top and left values to control the placement in the margin.
+  Customization:
+  
+  Change the background-color and border-color to suit your design.
+  Adjust the top, left, or right values to place the bubble exactly where you want it.
+  Let me know if you’d like further adjustments or more features!
+
+  .speech-bubble {
+    position: absolute; /* Keeps the bubble in place while scrolling */
+    top: 20%; /* Adjust vertical positioning */
+    left: 10px; /* Adjust horizontal positioning */
+    max-width: 200px;
+    background-color: #f0f8ff;
+    border: 2px solid #007BFF;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Position at the bottom of the bubble */
+    left: 20px; /* Position the tail */
+    border-width: 10px;
+    border-style: solid;
+    border-color: purple transparent transparent transparent; /* Creates the arrow */
+  }
