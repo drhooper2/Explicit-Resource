@@ -25,27 +25,6 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
-.speech-bubble {
-    position: absolute; /* Keeps the bubble in place while scrolling */
-    top: 20%; /* Adjust vertical positioning */
-    left: 10px; /* Adjust horizontal positioning */
-    max-width: 200px;
-    background-color: #f0f8ff;
-    border: 2px solid #007BFF;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .speech-bubble:after {
-    content: '';
-    position: absolute;
-    bottom: -10px; /* Position at the bottom of the bubble */
-    left: 20px; /* Position the tail */
-    border-width: 10px;
-    border-style: solid;
-    border-color: purple transparent transparent transparent; /* Creates the arrow */
-  }
 
 main {
     padding: 20px;
@@ -75,48 +54,20 @@ footer {
     margin-top: 20px;
 }
 
-.personal-picture {
-    max-width: 300%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  .speech-bubble {
-    position: relative; /* Keeps it in the margin area */
-    top: 20%; /* Adjust this to control vertical positioning */
-    left: 10px; /* Positions it in the left margin */
-    max-width: 200px; /* Limit the width of the bubble */
-    background-color: #f0f8ff;
-    border: 2px solid #007BFF;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .speech-bubble:after {
-    content: '';
-    position: relative;
-    bottom: -10px; /* Position at the bottom edge of the bubble */
-    left: 20px; /* Position the tail */
-    border-width: 10px;
-    border-style: solid;
-    border-color: #007BFF transparent transparent transparent; /* Create the arrow */
-  }
-
-  How It Works:
-  HTML Structure:
-  
-  The .speech-bubble is positioned outside the main content.
-  Content inside the bubble is defined in a <p> tag.
-  CSS Styling:
-  
-  position: fixed keeps the speech bubble in the same place in the margin, even when scrolling.
-  The :after pseudo-element creates the "tail" of the speech bubble with borders.
-  Adjust top and left values to control the placement in the margin.
-  Customization:
-  
-  Change the background-color and border-color to suit your design.
-  Adjust the top, left, or right values to place the bubble exactly where you want it.
-  Let me know if you’d like further adjustments or more features!
-
+.container {
+    position: relative; /* Ensures parent container is positioned */
+    margin: 20px;
+}
  
+.speech-bubble {
+    position: absolute; /* Position relative to the container */
+    top: 0; /* adjust as needed */
+    left: 100%; /* adjust as needed */
+    margin-left: 10px; /* space between text and bubble */
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0/2);
+
+}
