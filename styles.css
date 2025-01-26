@@ -8,18 +8,20 @@ body {
     color: black;
 }
 
-header { 
-    display: block;
-    visibility: visible;
-    background: url('Images\aaron-burden-dXYE1d08BiY-unsplash.jpg') no-repeat center center;
-    background-size: cover;  /* Ensures the image covers the entire header */
-    color: purple; /* Keeps the text readable */
-    padding: 20px;
+header {
+    height: 100px; /*adjust height as needed */
+    background-image: url('https://wallpaperaccess.com/full/5453427.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
     text-align: center;
+    padding-top: 100px;
 }
 
 header nav a {
-    color: #131212;
+
+    color: white;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -42,6 +44,7 @@ section {
 
 h1 {
     color: white;
+    margin-top: -10px;
 }
 
 h2 {
