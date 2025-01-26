@@ -9,15 +9,17 @@ body {
 }
 
 header { 
-    background: url('aaron-burden-dXYE1d08BiY-unsplash (1).jpg') no-repeat center center;
+    display: block;
+    visibility: visible;
+    background: url('Images\aaron-burden-dXYE1d08BiY-unsplash.jpg') no-repeat center center;
     background-size: cover;  /* Ensures the image covers the entire header */
-    color: #fff; /* Keeps the text readable */
-    padding: 1em 0;
+    color: purple; /* Keeps the text readable */
+    padding: 20px;
     text-align: center;
 }
 
 header nav a {
-    color: #fff;
+    color: #131212;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -61,8 +63,8 @@ footer {
  
 .speech-bubble {
     position: absolute; /* Position relative to the container */
-    top: -30; /* Align to the top of the container*/ /* Changed from 0 to -30px to move it up the page */
-    right: -120px; /* Move into the right margin */
+    top: -250px; /* Align to the top of the container*/ /* Changed from 0 to -75px to move it up the page */
+    right: -175px; /* Move into the right margin */
     width: 100px;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
