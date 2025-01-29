@@ -82,11 +82,23 @@ p {
     line-height: 1.5;
 }
 
-.image-content img {
-    max-width: 100%; /* Ensures the image scales down if too large */
-    width: 300px; /* this is how much space the image is set to take */
-    height: auto; /* Keeps the image proportional */
-    border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 12px 18px black; /* Optional: Adds a subtle shadow */
-    margin-top: 30%; /* Adjust this value to move the image down */
+/* image in #7 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
+
+.text {
+    width: 65%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* image in #7 */
