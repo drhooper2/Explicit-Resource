@@ -92,14 +92,14 @@ p {
 }
 
 .text {
-    width: 50%; /* makes text take less space */
-    margin-left: -5%; /* moves text further left */
+    width: 120%; /* makes text take less space */
+    margin-left: -6%; /* moves text further left */
 
 }
 
 .image {
-    width: 35%; /* adjusts image size */
-    margin-right: -10%; /* moves image further right */
+    width: 10%; /* adjusts image size */
+    margin-right: -35%; /* moves image further right */
 }
 
 .image img {
