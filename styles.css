@@ -93,14 +93,15 @@ p {
 
 .text {
     width: 65%;
-    margin-left: 50px;
+
 }
 
 .image img {
-    width: 100%;
+    width: 30%;
     height: auto;
     display: block;
-    right: -350px;
 }
+
+
 
 /* image in #7 */
