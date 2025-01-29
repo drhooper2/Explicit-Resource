@@ -87,21 +87,26 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .text {
-    width: 65%;
+    width: 50%; /* makes text take less space */
+    margin-left: -5%; /* moves text further left */
 
+}
+
+.image {
+    width: 35%; /* adjusts image size */
+    margin-right: -10%; /* moves image further right */
 }
 
 .image img {
-    width: 30%;
+    width: 199%;
     height: auto;
     display: block;
 }
-
 
 
 /* image in #7 */
