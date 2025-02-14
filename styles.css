@@ -109,7 +109,7 @@ p {
     display: block;
     margin-top: 75px;
 }
-.containers {
+.container {
     display: flex;
     align-items: center; /* Aligns items vertically */
     gap: 400px; /* Space between image and text */
