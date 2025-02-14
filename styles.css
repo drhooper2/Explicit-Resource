@@ -112,7 +112,7 @@ p {
 .containers {
     display: flex;
     align-items: center; /* Aligns items vertically */
-    gap: 125px; /* Space between image and text */
+    gap: 400px; /* Space between image and text */
 }
 .text {
     flex: 1; /* Allows text to take available space */
