@@ -103,10 +103,22 @@ p {
 }
 
 .image img {
-    width: 199%;
+    width: 200%; /* adjusting size as needed */
+    max-width: 100%;
     height: auto;
     display: block;
+    margin-top: 75px;
 }
-
-
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 200px; /* Space between image and text */
+}
+.text {
+    flex: 1; /* Allows text to take available space */
+}
+.image img {
+    max-width: 500%; /* Ensures image is responsive */
+    height: auto;
+}
 /* image in #7 */
