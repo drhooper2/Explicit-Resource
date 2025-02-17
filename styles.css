@@ -50,6 +50,10 @@ h1 {
 
 h2 {
     color: black;
+    margin-bottom: 5px;
+}
+p {
+    margin-top: 5px;
 }
 
 footer {
