@@ -67,8 +67,8 @@ footer {
  
 .speech-bubble {
     position: absolute; /* Position relative to the container */
-    top: -100px; /* Align to the top of the container*/ /* Changed from 0 to -50spx to move it up the page */
-    right: 15px; /* Move into the right margin */
+    top: -250px; /* Align to the top of the container*/ /* Changed from 0 to -50spx to move it up the page */
+    right: 5px; /* Move into the right margin */
     width: 175px;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
