@@ -103,16 +103,16 @@ p {
 }
 
 .image img {
-    width: 200%; /* adjusting size as needed */
+    width: 400%; /* adjusting size as needed */
     max-width: 300%;
-    height: auto;
+    height: 200%;
     display: block;
     margin-top: 75px;
 }
 .container {
     display: flex;
     align-items: center; /* Aligns items vertically */
-    gap: 100px; /* Space between image and text */
+    gap: 200px; /* Space between image and text */
 }
 .text {
     flex: 1; /* Allows text to take available space */
