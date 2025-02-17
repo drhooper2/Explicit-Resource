@@ -112,6 +112,7 @@ p {
     width: 300px; /* Adjust as needed */
     height: auto;
     border-radius: 10px; /* Optional for rounded corners */
+    margin-right: 60px; /* this moves text right */
 }
 
 .container {
@@ -128,8 +129,9 @@ p {
 .image img {
     margin-top: 60px;
     width: 200px; /* Adjust as needed */
-    height: 300px;
+    height: 325px;
     border-radius: 10px; /* Optional */
+    
 }
 
 /* Responsive: Stack text and image on smaller screens */
@@ -144,6 +146,10 @@ p {
     .image img {
         width: 100%;
         max-width: 300px; /* Prevents image from getting too large */
+        
     }
+}
+.image {
+    margin-left: 45px;
 }
 /* image in #7 */
