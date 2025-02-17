@@ -98,7 +98,8 @@ p {
 }
 
 .image {
-    width: 10%; /* adjusts image size */
+    width: 100px; /* adjusts image size */
+    height: 138px;
     margin-right: -35%; /* moves image further right */
 }
 
@@ -112,7 +113,7 @@ p {
 .container {
     display: flex;
     align-items: center; /* Aligns items vertically */
-    gap: 200px; /* Space between image and text */
+    gap: 400px; /* Space between image and text */
 }
 .text {
     flex: 1; /* Allows text to take available space */
