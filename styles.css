@@ -112,7 +112,7 @@ p {
     width: 300px; /* Adjust as needed */
     height: auto;
     border-radius: 10px; /* Optional for rounded corners */
-    margin-right: 60px; /* this moves text right */
+    margin-right: 75px; /* this moves text right */
 }
 
 .container {
@@ -150,6 +150,6 @@ p {
     }
 }
 .image {
-    margin-left: 45px;
+    margin-left: 60px;
 }
 /* image in #7 */
