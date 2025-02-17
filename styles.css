@@ -103,9 +103,9 @@ p {
 }
 
 .image img {
-    width: 400%; /* adjusting size as needed */
-    max-width: 300%;
-    height: 200%;
+    width: 138px; /* adjusting size as needed */
+    max-width: 100px;
+    height: 138px;
     display: block;
     margin-top: 75px;
 }
