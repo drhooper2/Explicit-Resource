@@ -104,7 +104,7 @@ p {
 
 .image img {
     width: 200%; /* adjusting size as needed */
-    max-width: 100%;
+    max-width: 300%;
     height: auto;
     display: block;
     margin-top: 75px;
@@ -112,7 +112,7 @@ p {
 .container {
     display: flex;
     align-items: center; /* Aligns items vertically */
-    gap: 50px; /* Space between image and text */
+    gap: 100px; /* Space between image and text */
 }
 .text {
     flex: 1; /* Allows text to take available space */
