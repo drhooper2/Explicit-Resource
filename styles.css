@@ -101,7 +101,7 @@ p {
 .container {
     display: flex;
     align-items: center;
-    gap: 20px; /* Adds spacing between text and image */
+    gap: 40px; /* Adds spacing between text and image */
 }
 
 .text {
@@ -117,7 +117,7 @@ p {
 .container {
     display: flex;
     align-items: center; /* Aligns items in the center vertically */
-    gap: 20px; /* Adds space between text and image */
+    gap: 75px; /* Adds space between text and image */
     flex-wrap: wrap; /* Ensures responsiveness */
 }
 
@@ -126,8 +126,9 @@ p {
 }
 
 .image img {
-    width: 300px; /* Adjust as needed */
-    height: auto;
+    margin-top: 60px;
+    width: 200px; /* Adjust as needed */
+    height: 300px;
     border-radius: 10px; /* Optional */
 }
 
@@ -136,11 +137,13 @@ p {
     .container {
         flex-direction: column;
         text-align: center;
+        gap: 40px;
+        
     }
 
     .image img {
         width: 100%;
-        max-width: 400px; /* Prevents image from getting too large */
+        max-width: 300px; /* Prevents image from getting too large */
     }
 }
 /* image in #7 */
