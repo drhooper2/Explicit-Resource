@@ -113,7 +113,7 @@ p {
 }
 
 .image img {
-    width: 300px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
     height: auto;
     border-radius: 10px; /* Optional for rounded corners */
     margin-right: 75px; /* this moves text right */
@@ -128,6 +128,7 @@ p {
 
 .text {
     flex: 1; /* Makes text take available space */
+    margin-left: 0;
 }
 
 .image img {
@@ -135,7 +136,7 @@ p {
     width: 200px; /* Adjust as needed */
     height: 325px;
     border-radius: 10px; /* Optional */
-    
+
 }
 
 /* Responsive: Stack text and image on smaller screens */
