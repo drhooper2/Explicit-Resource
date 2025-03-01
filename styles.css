@@ -68,20 +68,19 @@ footer {
     position: relative; /* Ensures parent container is positioned */
     margin: 20px;
 }
- 
+ /*
 .speech-bubble {
     position: absolute; /* Position relative to the container */
     top: -300px; /* Align to the top of the container*/ /* Changed from 0 to -50spx to move it up the page */
     right: -100px; /* Move into the right margin */
-    width: 259px;
-    background-color: #f1f1f1;
+    /*ackground-color: #f1f1f1;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 20px 20px 50px black;
     font-size: 20px;
 }
-
+*/
 p {
     margin: 0;
     line-height: 1.5;
@@ -93,12 +92,12 @@ p {
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    margin: auto;
+    margin-left: 0px;
 }
 
 .text {
     width: 120%; /* makes text take less space */
-    margin-left: -6%; /* moves text further left */
+    margin-left: -6px; /* moves text further left */
 
 }
 
